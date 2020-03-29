@@ -14,4 +14,9 @@ printf("После цыкла for\n");
 metka:
 printf("Текст после метки\n");
 
+for(int i=0;i<=10;i++)
+	{
+		fprintf(stdout, "Итерация номер %d", (a==4)?break:i);
+	}
+
 }
